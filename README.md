@@ -1,0 +1,1 @@
+This project is used for the Java Course @Scoala Informala
