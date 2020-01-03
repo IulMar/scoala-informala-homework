@@ -10,7 +10,7 @@ public class DegreesConversion {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter your temperature: ");
         float degreesF = sc.nextFloat();
-        System.out.println("Your temperature is " + degreesF + " degrees Fahrenheit. ");
+        System.out.println("Your temperature is " + degreesF + " degrees Fahrenheit.");
         System.out.print("Your body temperature in Celsius degrees is " + convertToCelsius(degreesF) + ". ");
         if (convertToCelsius(degreesF) > 37) {
             System.out.println("You are ill!");
