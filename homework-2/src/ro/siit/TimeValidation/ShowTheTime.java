@@ -4,9 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * write a program that asks the user what time it is, by printing on the console "What time is it?".Then the user must enter two numbers – one for hours and one for minutes.
- * If the input data represents a valid time, the program must output the message " The time is hh:mm now.", where hh respectively means the hours, and mm – the minutes.
- * If the entered hours or minutes are not valid, the program must print the message " Incorrect time!". The validation must be implemented in a separate method.
+ * The program validates if 2 values entered from the keyboard are valid for time ( hours and minutes)
  */
 public class ShowTheTime {
     public static void main(String[] args) {
@@ -24,6 +22,13 @@ public class ShowTheTime {
             }
         }
     }
+
+    /**
+     *
+     * @param hour Input value for the hour
+     * @param min Input value for the minutes
+     * @return true or false
+     */
 
     public static boolean defineTime(int hour, int min) {
         boolean time;
