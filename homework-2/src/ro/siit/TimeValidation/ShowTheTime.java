@@ -6,6 +6,7 @@ import java.util.Scanner;
 /**
  * The program validates if 2 values entered from the keyboard are valid for time ( hours and minutes)
  */
+
 public class ShowTheTime {
     public static void main(String[] args) {
         System.out.println("What is the time?");
@@ -24,9 +25,8 @@ public class ShowTheTime {
     }
 
     /**
-     *
      * @param hour Input value for the hour
-     * @param min Input value for the minutes
+     * @param min  Input value for the minutes
      * @return true or false
      */
 
