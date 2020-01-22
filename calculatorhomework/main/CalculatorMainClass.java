@@ -1,6 +1,6 @@
 public class CalculatorMainClass {
     public static void main(String[] args) {
-        Calculator c = new Calculator(null, 5, 4);
+        Calculator c = new Calculator(5, null, -4);
         Integer maxim = c.getMax();
         Integer minim = c.getMin();
         Double avg = c.getAvg();
